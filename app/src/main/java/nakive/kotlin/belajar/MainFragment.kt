@@ -14,4 +14,5 @@ class MainFragment:Fragment() {
     ): View? {
         return LayoutInflater.from(context).inflate(R.layout.fragmen_main, container, false)
     }
+
 }

@@ -3,4 +3,5 @@
     <string name="text">halo</string>
     <string name="action_listener">Click!</string>
     <string name="snack">Snack</string>
+    <string name="text_in_fragment">i am fragment</string>
 </resources>

@@ -2,6 +2,7 @@ package nakive.kotlin.belajar
 
 import android.os.Bundle
 import android.widget.Button
+import android.widget.FrameLayout
 import android.widget.LinearLayout
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -21,5 +22,7 @@ class MainActivity: AppCompatActivity() {
         buttonSnack.setOnClickListener{
             Snackbar.make(rootLayout, "halo snack", Snackbar.LENGTH_SHORT).show()}
 
+        supportFragmentManager.beginTransaction().replace(R.id.fl_main, MainFragment()).commit()
     }
+
 }
